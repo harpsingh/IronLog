@@ -1,0 +1,5 @@
+-keepattributes *Annotation*, InnerClasses
+-dontnote kotlinx.serialization.**
+-keep,includedescriptorclasses class com.ironlog.**$$serializer { *; }
+-keepclassmembers class com.ironlog.** { *** Companion; }
+-keepclasseswithmembers class com.ironlog.** { kotlinx.serialization.KSerializer serializer(...); }
