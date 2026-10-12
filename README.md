@@ -27,6 +27,8 @@ No account, no backend, no cloud: everything lives in a local SQLite database.
 | `ui` | Compose screens + ViewModels, theme, navigation (`IronLogRoot`) |
 
 ## Build
+New to Android? See [QUICKSTART.md](QUICKSTART.md) for step-by-step instructions.
+
 Open in Android Studio (Ladybug+), or run `./gradlew assembleDebug` with an Android SDK (API 35) installed.
 Weights are in kg.
 
